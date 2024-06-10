@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/ebdd005c6b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bijouterie Senegalaise</title>
+  </head>
+  <body class="bg-transparent">
+    <header>
+      <nav class="fixed top-0 left-0 w-full bg-transparent ">
+        <div class="flex justify-between">
+          <div>
+            <a href="">
+              <img src="./logo officiel.png" class="w-18 h-20" alt=""
+            /></a>
+          </div>
+          <div>
+            <a href="#"
+              ><button role="button" class="golden-button">
+                <span class="golden-text">CONTACT</span>
+              </button>
+            </a>
+          </div>
+          <div class="mr-2">
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href=""
+              ><button role="button" class="golden-button">
+                <span class="golden-text">PANIER</span>
+              </button></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="grid grid-cols-1 w-full">
+        <img src="./couverture bijouterie.png" alt="" />
+      </section>
+      <section class="grid grid-cols-1">
+        <img
+          class="flex justify-center left-0 bg-transparent w-full bg-transparent"
+          src="./image de bordure.png"
+          alt=""
+        />
+      </section>
+
+      <section
+        id="parent"
+        class="grid grid-cols-3 gap-2 bg-gray-800 border-4 border-gray-400 rounded-lg shadow-lg text-white flex justify-center items-center w-full"
+      >
+        <div id="fils" class="mb-20">
+          <img class="border-4" src="./bague en or.png" alt="" />Élégante et intemporelle, cette
+          magnifique bague en or est le parfait accessoire pour ajouter une
+          touche de luxe à votre look. Fabriquée avec soin à partir d'or 18
+          carats de la plus haute qualité, cette bague arbore un design élégant
+          et raffiné qui saura capturer les regards. Son design minimaliste et
+          ses lignes épurées en font un choix polyvalent qui se mariera
+          parfaitement avec n'importe quelle tenue, que ce soit pour une
+          occasion spéciale ou pour une journée ordinaire.
+            <div data-tooltip="valider l'achat" class="button">
+              <div class="button-wrapper">
+                <div class="text">Acheter</div>
+                <span class="icon">
+                  <svg
+                    viewBox="0 0 16 16"
+                    class="bi bi-cart2"
+                    fill="currentColor"
+                    height="16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <button id="plus">+</button>
+            <span>0</span>
+            <button id="moins">-</button>
+            <span>Prix<span id="prix">50000</span></span>
+            <li>Total<span id="total"> 0</span> xof</li>
+         
+        </div>
+        <div id="fils" class="mb-8">
+          <img class="border-4" src="./bracelet en or.png" alt="" />Découvrez l'élégance
+          intemporelle incarnée dans ce somptueux bracelet en or. Fabriqué avec
+          soin à partir d'or 18 carats de qualité supérieure, ce bracelet exsude
+          un luxe discret et une sophistication sans effort. Chaque maillon est
+          méticuleusement travaillé pour créer une pièce d'une beauté
+          incomparable, capturant la lumière avec chaque mouvement et ajoutant
+          une touche éclatante à votre poignet. Polyvalent et chic, ce bracelet
+          peut être porté seul pour une déclaration de style subtile ou associé
+          à d'autres pièces pour créer un ensemble glamour.
+          <div data-tooltip="valider l'achat" class="button">
+              <div class="button-wrapper">
+                <div class="text">Acheter</div>
+                <span class="icon">
+                  <svg
+                    viewBox="0 0 16 16"
+                    class="bi bi-cart2"
+                    fill="currentColor"
+                    height="16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <button id="plus">+</button>
+            <span>0</span>
+            <button id="moins">-</button>
+            <span>Prix<span id="prix">50000</span></span>
+            <li>Total<span id="total"> 0</span>xof</li>
+          
+        </div>
+        <div id="fils" class="mb-14">
+          <img class="border-4" src="./colier en or.png" alt="" />Sublimez votre allure avec ce
+          collier en or d'une élégance indéniable. Fabriqué avec précision à
+          partir d'or 18 carats, ce bijou incarne la beauté intemporelle et la
+          sophistication raffinée. La délicatesse des maillons et la brillance
+          éclatante de l'or confèrent à ce collier un charme irrésistible qui
+          illuminera votre décolleté avec éclat. Que vous le portiez pour une
+          occasion spéciale ou pour ajouter une touche de luxe à votre tenue
+          quotidienne, ce collier en or est l'accessoire parfait pour exprimer
+          votre style personnel et votre raffinement.
+            <div data-tooltip="valider l'achat" class="button">
+              <div class="button-wrapper">
+                <div class="text">Acheter</div>
+                <span class="icon">
+                  <svg
+                    viewBox="0 0 16 16"
+                    class="bi bi-cart2"
+                    fill="currentColor"
+                    height="16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                    ></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <button id="plus">+</button>
+            <span>0</span>
+            <button id="moins">-</button>
+            <span>Prix<span id="prix">50000</span></span>
+            <li>Total<span id="total"> 0</span>xof</li>
+          
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-800 mt-10 text-white py-6">
+      <div class="container mx-auto flex justify-between items-center">
+        <div>
+          <p class="font-bold">Informations de contact</p>
+          <p>Email: ahmadkhaledosman13@gmail.com</p>
+          <p>Téléphone: +221777151818</p>
+        </div>
+        <div class="ml-4 flex items-center">
+          <img class="w-24 h-30" src="./Orange-Money-logo.png" alt="" />
+          <img class="w-24 h-34" src="./wave logo.png" alt="" />
+        </div>
+        <div>
+          <p class="font-bold">Liens utiles</p>
+          <ul>
+            <li><a href="#" class="hover:text-gray-300">Accueil</a></li>
+            <li><a href="#" class="hover:text-gray-300">Services</a></li>
+            <li><a href="#" class="hover:text-gray-300">À propos</a></li>
+            <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
